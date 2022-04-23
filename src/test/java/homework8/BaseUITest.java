@@ -41,11 +41,13 @@ public class BaseUITest {
         if (driver != null) {
             driver.quit(); //Иногда бывает сразу не закрывает (с)
         }
+        System.out.println("Nikolas, see build settings on src/main/resources/screenForNikolas.png");
     }
 
     public WebDriver getDriver() {
         return driver;
     }
+
 //
 //
 //
